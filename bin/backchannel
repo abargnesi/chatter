@@ -1,9 +1,0 @@
-#!/usr/bin/env ruby
-
-if handle = ARGV[0]
-  trap(:INT) { abort }
-  require_relative "../lib/backchannel"
-  Backchannel.start(handle)
-else
-  abort "Usage: backchannel <HANDLE>"
-end

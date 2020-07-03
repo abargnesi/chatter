@@ -48,7 +48,7 @@ class Window
   def draw_text_field
     setpos(divider_line, 0)
     attron(color_pair(COLOR_WHITE) | A_NORMAL) do
-      addstr(" [backchannel]" + " " * cols)
+      addstr(" [chatter]" + " " * cols)
     end
 
     cursor_to_input_line
