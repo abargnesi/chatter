@@ -1,12 +1,12 @@
-# Backchannel
+# Chatter
 
-Sample application written in http://tx.pignata.com/2012/11/multicast-in-ruby-building-a-peer-to-peer-chat-system.html
+Multicast chat application with plugin support.
 
 ## Installation
 
-`gem install backchannel`
+`gem install chatter`
 
 ## Usage
 
-`backchannel <HANDLE>`
+`chatter <HANDLE>`
 
